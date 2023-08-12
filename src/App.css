@@ -6,7 +6,7 @@
 
 .img-bg{
     background:linear-gradient(116deg,#f1f1ef 50% , #010101 50%);
-    animation: rotate-bg  5s linear infinite;
+    animation: rotate-bg  8s linear infinite;
 }
 
 @keyframes rotate-bg {
@@ -17,4 +17,11 @@
         transform:rotate(360deg)
     }
     
+}
+.gradient-text{
+    margin-left: 50%;
+    font-weight: bold;
+}
+.Welcome{
+    font-size: 1.5em;
 }

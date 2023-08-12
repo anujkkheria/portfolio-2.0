@@ -1,0 +1,20 @@
+/* Slate-900-0f712a slate-300-cbd5el */
+
+.hero{
+    background: linear-gradient(to top left, #f1f1ef 50%,#010101 50%);
+}
+
+.img-bg{
+    background:linear-gradient(116deg,#f1f1ef 50% , #010101 50%);
+    animation: rotate-bg  5s linear infinite;
+}
+
+@keyframes rotate-bg {
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform:rotate(360deg)
+    }
+    
+}
